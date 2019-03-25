@@ -1,0 +1,499 @@
+<Pages>
+  <Page Id="tcm:2031-21624-64">
+    <Title>Home</Title>
+    <VersionInfo>
+      <Version>384</Version>
+      <Revision>0</Revision>
+      <CreationDate>2017-03-14T10:14:15</CreationDate>
+      <RevisionDate>2018-06-13T13:33:36</RevisionDate>
+    </VersionInfo>
+    <Template Id="tcm:2031-359-128" Title="Homepage PT" />
+    <OwningPublication Id="tcm:0-2031-1" />
+    <StructureGroup Id="tcm:2031-4-4" />
+    <Path>\en_gb\index.aspx</Path>
+    <URL>/index.aspx</URL>
+    <CodePage>65001</CodePage>
+    <Custom>
+      <Metadata xmlns="uuid:5b7c2874-7458-45c0-968c-d0805eac9784">
+        <SitemapInclude>no</SitemapInclude>
+        <XMLSitemapInclude>yes</XMLSitemapInclude>
+        <LinkTitle>Home</LinkTitle>
+        <IsNonBannerPage>No</IsNonBannerPage>
+        <Priority>1.0</Priority>
+        <ChangeFreq>Daily</ChangeFreq>
+        <PageName>HomePage</PageName>
+        <PageType1>Home</PageType1>
+        <PageType2>Home</PageType2>
+        <PageContent2>Shop</PageContent2>
+        <PageContent3>Home</PageContent3>
+      </Metadata>
+    </Custom>
+    <RenderingMetadata>
+      <Page path="\Root" tcmuripath="\tcm:2031-4-4">
+        <Components>
+          <Component id="tcm:2031-19279" path="\Building Blocks\Components\SEO Content Pages\Home Page" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-438-2\tcm:2031-9084-2" />
+          <Component id="tcm:2031-40944" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-42520" path="\Building Blocks\Components\Blocks\Change Out Components\Changeout Assets\Homepage\Top Brands" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15719-2\tcm:2031-15725-2\tcm:2031-15884-2" />
+          <Component id="tcm:2031-40945" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-42152" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Recognition\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15768-2\tcm:2031-15769-2" />
+          <Component id="tcm:2031-40947" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-40946" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-40948" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-40949" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-40950" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-41548" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-50923" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-40952" path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2" />
+          <Component id="tcm:2031-20063" path="\Building Blocks\Components\Widgets" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-607-2" />
+        </Components>
+      </Page>
+    </RenderingMetadata>
+    <RenderingInstructions />
+    <ComponentPresentations>
+      <ComponentPresentation ComponentId="tcm:2031-40944" TemplateId="tcm:2031-15427-32" Priority="200" />
+      <ComponentPresentation ComponentId="tcm:2031-19279" TemplateId="tcm:2031-416-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\SEO Content Pages\Home Page" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-438-2\tcm:2031-9084-2">
+              <Source>
+                <Content xmlns="uuid:67f63cbc-20c5-4165-82e8-fed62b87e543">
+                  <Title>House of Fraser - Gifts, Fashion, Beauty, Home, Furniture &amp; Garden</Title>
+                  <Description>Shop from our wide range of products at the UK's premium department store. FREE delivery on orders over £50 or Buy online and Collect in store.</Description>
+                  <NOODPtag>Yes</NOODPtag>
+                  <IndexTag>Yes</IndexTag>
+                  <FollowTag>Yes</FollowTag>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-416-32" title="Seo Content CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-42520" TemplateId="tcm:2031-40645-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\Changeout Assets\Homepage\Top Brands" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15719-2\tcm:2031-15725-2\tcm:2031-15884-2">
+              <Source>
+                <Content xmlns="uuid:4f5745a2-f165-4a05-8524-8f6994caa9a0">
+                  <Title>Top Sale Brands</Title>
+                  <Components xlink:type="simple" xlink:href="tcm:2031-42519" xlink:title="hp_topbrands_block04" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <Components xlink:type="simple" xlink:href="tcm:2031-42516" xlink:title="hp_topbrands_block01" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <Components xlink:type="simple" xlink:href="tcm:2031-42517" xlink:title="hp_topbrands_block02" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <Components xlink:type="simple" xlink:href="tcm:2031-42518" xlink:title="hp_topbrands_block03" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-40645-32" title="Top Brands CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-40945" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Father's Day Gifts </Title>
+                  <TitleHeadingTag>White</TitleHeadingTag>
+                  <Badges>
+                    <BadgeText>sunday 17th june</BadgeText>
+                    <BgColor>0, 0, 0, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-44251" xlink:title="url_Homepage_SALE_Block02" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-41279" xlink:title="img_SALE_hp_Block02" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <CssStyling>v-center</CssStyling>
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-42152" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Recognition\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15768-2\tcm:2031-15769-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Badges>
+                    <BadgeText>UNTIL 17TH JUNE</BadgeText>
+                    <BgColor>0, 0, 0, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-42154" xlink:title="recognition_homepage_URL_july17" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-42153" xlink:title="recognition_homepage_image_july17" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <TextPosition>Left</TextPosition>
+                  <TnCLink xlink:type="simple" xlink:href="tcm:2031-42151" xlink:title="recognition_Ts&amp;Cs_URL_july17" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-40947" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Men's Top Sale Picks</Title>
+                  <Badges>
+                    <BadgeText>up to 50% off</BadgeText>
+                    <BgColor>219, 41, 29, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-44253" xlink:title="url_Homepage_SALE_Block04" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-41281" xlink:title="img_SALE_hp_Block04" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-40946" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Dresses Sale</Title>
+                  <TitleHeadingTag>White</TitleHeadingTag>
+                  <Badges>
+                    <BadgeText>up to 50% off</BadgeText>
+                    <BgColor>219, 41, 29, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-44252" xlink:title="url_Homepage_SALE_Block03" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-41280" xlink:title="img_SALE_hp_Block03" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <CssStyling>v-center</CssStyling>
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-40948" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Women's Top Sale Picks</Title>
+                  <TitleHeadingTag>White</TitleHeadingTag>
+                  <Badges>
+                    <BadgeText>up to 50% off</BadgeText>
+                    <BgColor>219, 41, 29, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-44254" xlink:title="url_Homepage_SALE_Block05" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-41282" xlink:title="img_SALE_hp_Block05" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-40949" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Bags &amp; Luggage Top Sale Picks</Title>
+                  <TitleHeadingTag>White</TitleHeadingTag>
+                  <Badges>
+                    <BadgeText>Up to 50% off</BadgeText>
+                    <BgColor>219, 41, 29, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-44255" xlink:title="url_Homepage_SALE_Block06" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-41283" xlink:title="img_SALE_hp_Block06" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <CssStyling>v-center</CssStyling>
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-40950" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33969-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33969-1024" titlepath="\Heading &amp; Colour Variants\Charcoal" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Home Top Sale Picks</Title>
+                  <TitleHeadingTag>Charcoal</TitleHeadingTag>
+                  <Badges>
+                    <BadgeText>up to 50% off</BadgeText>
+                    <BgColor>219, 41, 29, 1 </BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-44256" xlink:title="url_Homepage_SALE_Block07" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-51513" xlink:title="homepage_mw_080118" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <CssStyling>v-center</CssStyling>
+                  <TextPosition>Left</TextPosition>
+                  <TnCColourTag>White</TnCColourTag>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-41548" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Kids' Top Sale Picks</Title>
+                  <Badges>
+                    <BadgeText>up to 50% off</BadgeText>
+                    <BgColor>219, 41, 29, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-41552" xlink:title="Homepage SALE Url 01" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerType>EventBanner</BannerType>
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-41547" xlink:title="Homepage SALE image" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-50923" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Men's Aftershave</Title>
+                  <Badges>
+                    <BadgeText>father's day</BadgeText>
+                    <BgColor>0, 0, 0, 1</BgColor>
+                    <DetailedBadge>yes</DetailedBadge>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-50921" xlink:title="url_Homepage_SALE_Block10" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-50922" xlink:title="img_SALE_hp_Block10" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <CssStyling>hidden</CssStyling>
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-40952" TemplateId="tcm:2031-15420-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+              <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+              <Keyword id="tcm:2031-33973-1024" tcmuripath="\tcm:2031-9247-512\tcm:2031-33973-1024" titlepath="\Heading &amp; Colour Variants\White" categoryId="tcm:2031-9247-512" categoryTitle="Heading &amp; Colour Variants" categoryXmlName="Heading" />
+              <Source>
+                <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+                  <Title>Inspiration &amp; Ideas</Title>
+                  <TitleHeadingTag>White</TitleHeadingTag>
+                  <Badges>
+                    <CssStyling>White</CssStyling>
+                  </Badges>
+                  <Links xlink:type="simple" xlink:href="tcm:2031-40943" xlink:title="url_Homepage_SALE_Block09_Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <BannerImage xlink:type="simple" xlink:href="tcm:2031-41286" xlink:title="img_SALE_hp_Block09" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  <TextPosition>Left</TextPosition>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-15420-32" title="Image Banner 2 Column Home Banner CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+      <ComponentPresentation ComponentId="tcm:2031-20063" TemplateId="tcm:2031-407-32" Priority="200">
+        <RenderingMetadata>
+          <SmartTarget>
+            <Component path="\Building Blocks\Components\Widgets" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-607-2">
+              <Source>
+                <Content xmlns="uuid:f660cc0f-cb3a-4bff-b162-7f1d4016c33c">
+                  <PageType>home</PageType>
+                  <WidgetType>you may also like widget</WidgetType>
+                </Content>
+              </Source>
+            </Component>
+            <Template id="tcm:2031-407-32" title="Recommendation Widget CT" />
+            <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+          </SmartTarget>
+        </RenderingMetadata>
+        <RenderingInstructions />
+      </ComponentPresentation>
+    </ComponentPresentations>
+    <Schema Id="tcm:2031-221-8" />
+    <Binaries>
+      <Binary Id="tcm:2031-42515" />
+      <Binary Id="tcm:2031-42512" />
+      <Binary Id="tcm:2031-42513" />
+      <Binary Id="tcm:2031-42514" />
+      <Binary Id="tcm:2031-41279" />
+      <Binary Id="tcm:2031-41279" VariantId="w-375" />
+      <Binary Id="tcm:2031-41279" VariantId="w-480" />
+      <Binary Id="tcm:2031-41279" VariantId="w-572" />
+      <Binary Id="tcm:2031-41279" VariantId="w-768" />
+      <Binary Id="tcm:2031-41279" VariantId="w-944" />
+      <Binary Id="tcm:2031-41279" VariantId="w-960" />
+      <Binary Id="tcm:2031-41279" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41279" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41279" VariantId="w-2308" />
+      <Binary Id="tcm:2031-42153" />
+      <Binary Id="tcm:2031-42153" VariantId="w-375" />
+      <Binary Id="tcm:2031-42153" VariantId="w-480" />
+      <Binary Id="tcm:2031-42153" VariantId="w-572" />
+      <Binary Id="tcm:2031-42153" VariantId="w-768" />
+      <Binary Id="tcm:2031-42153" VariantId="w-944" />
+      <Binary Id="tcm:2031-42153" VariantId="w-960" />
+      <Binary Id="tcm:2031-42153" VariantId="w-1154" />
+      <Binary Id="tcm:2031-42153" VariantId="w-1536" />
+      <Binary Id="tcm:2031-42153" VariantId="w-2308" />
+      <Binary Id="tcm:2031-41281" />
+      <Binary Id="tcm:2031-41281" VariantId="w-375" />
+      <Binary Id="tcm:2031-41281" VariantId="w-480" />
+      <Binary Id="tcm:2031-41281" VariantId="w-572" />
+      <Binary Id="tcm:2031-41281" VariantId="w-768" />
+      <Binary Id="tcm:2031-41281" VariantId="w-944" />
+      <Binary Id="tcm:2031-41281" VariantId="w-960" />
+      <Binary Id="tcm:2031-41281" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41281" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41281" VariantId="w-2308" />
+      <Binary Id="tcm:2031-41280" />
+      <Binary Id="tcm:2031-41280" VariantId="w-375" />
+      <Binary Id="tcm:2031-41280" VariantId="w-480" />
+      <Binary Id="tcm:2031-41280" VariantId="w-572" />
+      <Binary Id="tcm:2031-41280" VariantId="w-768" />
+      <Binary Id="tcm:2031-41280" VariantId="w-944" />
+      <Binary Id="tcm:2031-41280" VariantId="w-960" />
+      <Binary Id="tcm:2031-41280" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41280" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41280" VariantId="w-2308" />
+      <Binary Id="tcm:2031-41282" />
+      <Binary Id="tcm:2031-41282" VariantId="w-375" />
+      <Binary Id="tcm:2031-41282" VariantId="w-480" />
+      <Binary Id="tcm:2031-41282" VariantId="w-572" />
+      <Binary Id="tcm:2031-41282" VariantId="w-768" />
+      <Binary Id="tcm:2031-41282" VariantId="w-944" />
+      <Binary Id="tcm:2031-41282" VariantId="w-960" />
+      <Binary Id="tcm:2031-41282" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41282" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41282" VariantId="w-2308" />
+      <Binary Id="tcm:2031-41283" />
+      <Binary Id="tcm:2031-41283" VariantId="w-375" />
+      <Binary Id="tcm:2031-41283" VariantId="w-480" />
+      <Binary Id="tcm:2031-41283" VariantId="w-572" />
+      <Binary Id="tcm:2031-41283" VariantId="w-768" />
+      <Binary Id="tcm:2031-41283" VariantId="w-944" />
+      <Binary Id="tcm:2031-41283" VariantId="w-960" />
+      <Binary Id="tcm:2031-41283" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41283" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41283" VariantId="w-2308" />
+      <Binary Id="tcm:2031-51513" />
+      <Binary Id="tcm:2031-51513" VariantId="w-375" />
+      <Binary Id="tcm:2031-51513" VariantId="w-480" />
+      <Binary Id="tcm:2031-51513" VariantId="w-572" />
+      <Binary Id="tcm:2031-51513" VariantId="w-768" />
+      <Binary Id="tcm:2031-51513" VariantId="w-944" />
+      <Binary Id="tcm:2031-51513" VariantId="w-960" />
+      <Binary Id="tcm:2031-51513" VariantId="w-1154" />
+      <Binary Id="tcm:2031-51513" VariantId="w-1536" />
+      <Binary Id="tcm:2031-51513" VariantId="w-2308" />
+      <Binary Id="tcm:2031-41547" />
+      <Binary Id="tcm:2031-41547" VariantId="w-375" />
+      <Binary Id="tcm:2031-41547" VariantId="w-480" />
+      <Binary Id="tcm:2031-41547" VariantId="w-572" />
+      <Binary Id="tcm:2031-41547" VariantId="w-768" />
+      <Binary Id="tcm:2031-41547" VariantId="w-944" />
+      <Binary Id="tcm:2031-41547" VariantId="w-960" />
+      <Binary Id="tcm:2031-41547" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41547" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41547" VariantId="w-2308" />
+      <Binary Id="tcm:2031-50922" />
+      <Binary Id="tcm:2031-50922" VariantId="w-375" />
+      <Binary Id="tcm:2031-50922" VariantId="w-480" />
+      <Binary Id="tcm:2031-50922" VariantId="w-572" />
+      <Binary Id="tcm:2031-50922" VariantId="w-768" />
+      <Binary Id="tcm:2031-50922" VariantId="w-944" />
+      <Binary Id="tcm:2031-50922" VariantId="w-960" />
+      <Binary Id="tcm:2031-50922" VariantId="w-1154" />
+      <Binary Id="tcm:2031-50922" VariantId="w-1536" />
+      <Binary Id="tcm:2031-50922" VariantId="w-2308" />
+      <Binary Id="tcm:2031-41286" />
+      <Binary Id="tcm:2031-41286" VariantId="w-375" />
+      <Binary Id="tcm:2031-41286" VariantId="w-480" />
+      <Binary Id="tcm:2031-41286" VariantId="w-572" />
+      <Binary Id="tcm:2031-41286" VariantId="w-768" />
+      <Binary Id="tcm:2031-41286" VariantId="w-944" />
+      <Binary Id="tcm:2031-41286" VariantId="w-960" />
+      <Binary Id="tcm:2031-41286" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41286" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41286" VariantId="w-2308" />
+    </Binaries>
+  </Page>
+</Pages>

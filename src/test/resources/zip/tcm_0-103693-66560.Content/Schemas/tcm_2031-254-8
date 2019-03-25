@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?><tcm:Schema ID="tcm:2031-254-8" IsEditable="false" xmlns:tcm="http://www.tridion.com/ContentManager/5.0"><tcm:Context xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Publication xlink:type="simple" xlink:title="700 EN_GB SHOP SITE" xlink:href="tcm:0-2031-1" /><tcm:OrganizationalItem xlink:type="simple" xlink:title="Content Schemas" xlink:href="tcm:2031-22-2" /></tcm:Context><tcm:Info xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:LocationInfo><tcm:WebDAVURL>/webdav/700%20EN_GB%20SHOP%20SITE/Building%20Blocks/System/Schemas/Shared/Content%20Schemas/Static%20SEO%20Content.xsd</tcm:WebDAVURL><tcm:Path>\700 EN_GB SHOP SITE\Building Blocks\System\Schemas\Shared\Content Schemas</tcm:Path></tcm:LocationInfo><tcm:BluePrintInfo><tcm:OwningPublication xlink:type="simple" xlink:title="100 SCHEMA MASTER" xlink:href="tcm:0-2-1" /><tcm:IsShared>true</tcm:IsShared><tcm:IsLocalized>false</tcm:IsLocalized></tcm:BluePrintInfo><tcm:VersionInfo><tcm:Version>4</tcm:Version><tcm:Revision>0</tcm:Revision><tcm:CreationDate>2016-01-25T08:52:38</tcm:CreationDate><tcm:RevisionDate>2016-12-08T08:54:05</tcm:RevisionDate><tcm:Creator xlink:type="simple" xlink:title="peuncmsapp\arashdeep_singh" xlink:href="tcm:0-13-65552" description="Arashdeep Singh" /><tcm:Revisor xlink:type="simple" xlink:title="HOFSSCTEST\Nikhil_Gupta31" xlink:href="tcm:0-2083-65552" description="Nikhil Gupta" /><tcm:ItemLock Type="0" Title="No lock" /><tcm:IsNew>false</tcm:IsNew><tcm:SystemComment>Checked-in by HOFSSCTEST\Nikhil_Gupta31 ([missing value]).</tcm:SystemComment><tcm:UserComment /></tcm:VersionInfo><tcm:LockInfo><tcm:ItemLock Type="0" Title="No lock" /></tcm:LockInfo><tcm:PublishInfo><tcm:IsPublished>false</tcm:IsPublished></tcm:PublishInfo><tcm:AllowedActions><tcm:Actions Allow="1122312" Deny="51303" Managed="0" AllowedActions="tcm:View,tcm:Copy,tcm:HistoryList,tcm:WorkflowManaged" DeniedActions="tcm:Edit,tcm:Delete,tcm:Localize,tcm:Unlocalize,tcm:Cut,tcm:CheckOut,tcm:CheckIn,tcm:UndoCheckOut" /></tcm:AllowedActions></tcm:Info><tcm:Data xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Title>Static SEO Content</tcm:Title><tcm:Description>Static SEO Content</tcm:Description><tcm:Purpose>Component</tcm:Purpose><tcm:NamespaceURI>uuid:67f63cbc-20c5-4165-82e8-fed62b87e543</tcm:NamespaceURI><tcm:RootElementName>Content</tcm:RootElementName><tcm:IsTridionWebSchema>true</tcm:IsTridionWebSchema><tcm:XSD><xsd:schema elementFormDefault="qualified" targetNamespace="uuid:67f63cbc-20c5-4165-82e8-fed62b87e543" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="uuid:67f63cbc-20c5-4165-82e8-fed62b87e543" xmlns:tcmi="http://www.tridion.com/ContentManager/5.0/Instance" xmlns:category="tcm:0-2031-1/Categories.xsd"><xsd:import namespace="http://www.tridion.com/ContentManager/5.0/Instance" schemaLocation="cm_xml_inst.xsd" /><xsd:import namespace="tcm:0-2031-1/Categories.xsd" schemaLocation="tcm:0-2031-1/Categories.xsd" />
+  
+  
+  <xsd:complexType name="Content">
+          <xsd:sequence>
+            <xsd:element name="locale" minOccurs="0" maxOccurs="1">
+              <xsd:annotation>
+                <xsd:appinfo>
+                  <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                  <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+                </xsd:appinfo>
+              </xsd:annotation>
+              <xsd:simpleType>
+                <xsd:restriction base="xsd:normalizedString">
+                  <xsd:enumeration value="en-gb" />
+                  <xsd:enumeration value="en-au" />
+                </xsd:restriction>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="url" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+              <xsd:annotation>
+                <xsd:appinfo>
+                  <tcm:ExtensionXml xmlns:tcm="http://www.tridion.com/ContentManager/5.0" />
+                </xsd:appinfo>
+              </xsd:annotation>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+  <xsd:annotation>
+    <xsd:appinfo>
+      <tcm:Labels xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+        <tcm:Label ElementName="Title" Metadata="false">Page Title</tcm:Label>
+        <tcm:Label ElementName="Header" Metadata="false">H1 for Page</tcm:Label>
+        <tcm:Label ElementName="Description" Metadata="false">Description for page</tcm:Label>
+        <tcm:Label ElementName="NOODPtag" Metadata="false">NOODP tag for page</tcm:Label>
+        <tcm:Label ElementName="CanonicalTag" Metadata="false">Canonical url for page</tcm:Label>
+        <tcm:Label ElementName="IndexTag" Metadata="false">Robots Index tag for page</tcm:Label>
+        <tcm:Label ElementName="FollowTag" Metadata="false">Robots Follow tag for page</tcm:Label>
+        <tcm:Label ElementName="CssClass" Metadata="false">Css Styling for SEO Content</tcm:Label>
+        <tcm:Label ElementName="Locale" Metadata="false">Locale</tcm:Label>
+        <tcm:Label ElementName="Store" Metadata="true">Store ID</tcm:Label>
+      <tcm:Label ElementName="locale" Context="tcm:2031-15339-8">LOCALE</tcm:Label><tcm:Label ElementName="url" Context="tcm:2031-15339-8">URL</tcm:Label></tcm:Labels>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:element name="Content">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Title" minOccurs="1" maxOccurs="1">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+          <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+            <field>
+              <editable>false</editable>
+            </field>
+          </configuration>
+        </ExtensionXml>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+              <xsd:maxLength value="70" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="Header" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+          <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+            <field>
+              <editable>false</editable>
+            </field>
+          </configuration>
+        </ExtensionXml>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Description" minOccurs="1" maxOccurs="1">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+          <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+            <field>
+              <editable>false</editable>
+            </field>
+          </configuration>
+        </ExtensionXml>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+              <xsd:maxLength value="155" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="NOODPtag" minOccurs="0" maxOccurs="1">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+          <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+            <field>
+              <editable>false</editable>
+            </field>
+          </configuration>
+        </ExtensionXml>
+              <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+              <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+              <xsd:enumeration value="Yes" />
+              <xsd:enumeration value="No" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="CanonicalTag" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+          <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+            <field>
+              <editable>false</editable>
+            </field>
+          </configuration>
+        </ExtensionXml>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="IndexTag" minOccurs="1" maxOccurs="1">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+          <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+            <field>
+              <editable>false</editable>
+            </field>
+          </configuration>
+        </ExtensionXml>
+              <tcm:DefaultTextValue xmlns:tcm="http://www.tridion.com/ContentManager/5.0">Yes</tcm:DefaultTextValue>
+              <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+              <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+              <xsd:enumeration value="Yes" />
+              <xsd:enumeration value="No" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="FollowTag" minOccurs="1" maxOccurs="1">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+          <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+            <field>
+              <editable>false</editable>
+            </field>
+          </configuration>
+        </ExtensionXml>
+              <tcm:DefaultTextValue xmlns:tcm="http://www.tridion.com/ContentManager/5.0">Yes</tcm:DefaultTextValue>
+              <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+              <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+              <xsd:enumeration value="Yes" />
+              <xsd:enumeration value="No" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="CssClass" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Locale" minOccurs="0" maxOccurs="unbounded" type="Content">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+              <tcm:EmbeddedSchema xlink:href="tcm:2031-15339-8" xmlns:tcm="http://www.tridion.com/ContentManager/5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="Embedded Locale Schema" />
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Metadata">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Store" minOccurs="0" maxOccurs="1" type="category:Store_Ids">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <tcm:ExtensionXml xmlns:tcm="http://www.tridion.com/ContentManager/5.0" />
+              <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+              <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">tree</tcm:listtype>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema></tcm:XSD><tcm:AllowedMultimediaTypes /><tcm:ComponentProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:BundleProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:DeleteBundleOnProcessFinished>false</tcm:DeleteBundleOnProcessFinished></tcm:Data></tcm:Schema>

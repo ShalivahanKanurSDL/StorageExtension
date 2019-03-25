@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?><tcm:Schema ID="tcm:2031-215-8" IsEditable="false" xmlns:tcm="http://www.tridion.com/ContentManager/5.0"><tcm:Context xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Publication xlink:type="simple" xlink:title="700 EN_GB SHOP SITE" xlink:href="tcm:0-2031-1" /><tcm:OrganizationalItem xlink:type="simple" xlink:title="Content Schemas" xlink:href="tcm:2031-22-2" /></tcm:Context><tcm:Info xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:LocationInfo><tcm:WebDAVURL>/webdav/700%20EN_GB%20SHOP%20SITE/Building%20Blocks/System/Schemas/Shared/Content%20Schemas/Component%20List.xsd</tcm:WebDAVURL><tcm:Path>\700 EN_GB SHOP SITE\Building Blocks\System\Schemas\Shared\Content Schemas</tcm:Path></tcm:LocationInfo><tcm:BluePrintInfo><tcm:OwningPublication xlink:type="simple" xlink:title="100 SCHEMA MASTER" xlink:href="tcm:0-2-1" /><tcm:IsShared>true</tcm:IsShared><tcm:IsLocalized>false</tcm:IsLocalized></tcm:BluePrintInfo><tcm:VersionInfo><tcm:Version>13</tcm:Version><tcm:Revision>0</tcm:Revision><tcm:CreationDate>2016-01-25T08:52:34</tcm:CreationDate><tcm:RevisionDate>2018-04-17T10:19:52</tcm:RevisionDate><tcm:Creator xlink:type="simple" xlink:title="peuncmsapp\arashdeep_singh" xlink:href="tcm:0-13-65552" description="Arashdeep Singh" /><tcm:Revisor xlink:type="simple" xlink:title="HOFSSC\ankit_mittal09" xlink:href="tcm:0-3211-65552" description="HOFSSC\ankit_mittal09" /><tcm:ItemLock Type="0" Title="No lock" /><tcm:IsNew>false</tcm:IsNew><tcm:SystemComment>Checked-in by HOFSSC\ankit_mittal09 ([missing value]).</tcm:SystemComment><tcm:UserComment /></tcm:VersionInfo><tcm:LockInfo><tcm:ItemLock Type="0" Title="No lock" /></tcm:LockInfo><tcm:PublishInfo><tcm:IsPublished>false</tcm:IsPublished></tcm:PublishInfo><tcm:AllowedActions><tcm:Actions Allow="1122312" Deny="51303" Managed="0" AllowedActions="tcm:View,tcm:Copy,tcm:HistoryList,tcm:WorkflowManaged" DeniedActions="tcm:Edit,tcm:Delete,tcm:Localize,tcm:Unlocalize,tcm:Cut,tcm:CheckOut,tcm:CheckIn,tcm:UndoCheckOut" /></tcm:AllowedActions></tcm:Info><tcm:Data xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Title>Component List</tcm:Title><tcm:Description>Component List</tcm:Description><tcm:Purpose>Component</tcm:Purpose><tcm:NamespaceURI>uuid:4f5745a2-f165-4a05-8524-8f6994caa9a0</tcm:NamespaceURI><tcm:RootElementName>Content</tcm:RootElementName><tcm:IsTridionWebSchema>true</tcm:IsTridionWebSchema><tcm:XSD><xsd:schema elementFormDefault="qualified" targetNamespace="uuid:4f5745a2-f165-4a05-8524-8f6994caa9a0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="uuid:4f5745a2-f165-4a05-8524-8f6994caa9a0" xmlns:tcmi="http://www.tridion.com/ContentManager/5.0/Instance">
+        <xsd:import namespace="http://www.tridion.com/ContentManager/5.0/Instance" schemaLocation="cm_xml_inst.xsd" />
+        <xsd:annotation>
+          <xsd:appinfo>
+            <tcm:Labels xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+              <tcm:Label ElementName="Title" Metadata="false">Title</tcm:Label>
+              <tcm:Label ElementName="SubTitle" Metadata="false">Sub title</tcm:Label>
+              <tcm:Label ElementName="Components" Metadata="false">Components</tcm:Label>
+              <tcm:Label ElementName="ListLink" Metadata="false">Link for Component List</tcm:Label>
+              <tcm:Label ElementName="CssStyling" Metadata="false">Css Styling</tcm:Label>
+              <tcm:Label ElementName="Image" Metadata="false">Image</tcm:Label>
+              <tcm:Label ElementName="ListType" Metadata="true">List Type</tcm:Label>
+            </tcm:Labels>
+          </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:element name="Content">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Title" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="SubTitle" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="Components" minOccurs="0" maxOccurs="unbounded" type="tcmi:SimpleLink">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:linktype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">ComponentLink</tcm:linktype>
+                    <tcm:AllowMultimediaLinks xmlns:tcm="http://www.tridion.com/ContentManager/5.0">true</tcm:AllowMultimediaLinks>
+                    <tcm:AllowedTargetSchemas xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <tcm:TargetSchema xlink:href="tcm:2031-207-8" xlink:title="Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-208-8" xlink:title="Document" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-203-8" xlink:title="Image" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-206-8" xlink:title="Internal Link" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-202-8" xlink:title="System Image" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-204-8" xlink:title="URL Link" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-209-8" xlink:title="Widget" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-210-8" xlink:title="Article" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-212-8" xlink:title="Menu Group" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-213-8" xlink:title="Sharing Link" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-215-8" xlink:title="Component List" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-214-8" xlink:title="RTF Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-15356-8" xlink:title="Quiz Result Set" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-15358-8" xlink:title="Help" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-15359-8" xlink:title="Recognition Card" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-246-8" xlink:title="Resource Label" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-10103-8" xlink:title="DC Storm" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-56738-8" xlink:title="Category Navigation Group" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-56737-8" xlink:title="Sub Category Navigation Group" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    </tcm:AllowedTargetSchemas>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="ListLink" minOccurs="0" maxOccurs="1" type="tcmi:SimpleLink">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:linktype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">ComponentLink</tcm:linktype>
+                    <tcm:AllowMultimediaLinks xmlns:tcm="http://www.tridion.com/ContentManager/5.0">false</tcm:AllowMultimediaLinks>
+                    <tcm:AllowedTargetSchemas xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <tcm:TargetSchema xlink:href="tcm:2031-204-8" xlink:title="URL Link" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    </tcm:AllowedTargetSchemas>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="CssStyling" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="Image" minOccurs="0" maxOccurs="1" type="tcmi:SimpleLink">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:linktype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">MultimediaLink</tcm:linktype>
+                    <tcm:AllowedTargetSchemas xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <tcm:TargetSchema xlink:href="tcm:2031-203-8" xlink:title="Image" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-202-8" xlink:title="System Image" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    </tcm:AllowedTargetSchemas>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Metadata">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="ListType" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <tcm:ExtensionXml xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </tcm:ExtensionXml>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:schema></tcm:XSD><tcm:AllowedMultimediaTypes /><tcm:ComponentProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:BundleProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:DeleteBundleOnProcessFinished>false</tcm:DeleteBundleOnProcessFinished></tcm:Data></tcm:Schema>

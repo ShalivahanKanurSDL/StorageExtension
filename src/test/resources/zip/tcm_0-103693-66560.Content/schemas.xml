@@ -1,0 +1,52 @@
+<Schemas>
+  <Schema Id="tcm:2031-221-8">
+    <Title>Page Metadata</Title>
+    <VersionInfo>
+      <Version>11</Version>
+      <Revision>0</Revision>
+      <CreationDate>2016-01-25T08:52:35</CreationDate>
+      <RevisionDate>2017-02-27T14:42:52</RevisionDate>
+    </VersionInfo>
+    <OwningPublication>tcm:0-2-1</OwningPublication>
+  </Schema>
+  <Schema Id="tcm:2031-254-8">
+    <Title>Static SEO Content</Title>
+    <VersionInfo>
+      <Version>4</Version>
+      <Revision>0</Revision>
+      <CreationDate>2016-01-25T08:52:38</CreationDate>
+      <RevisionDate>2016-12-08T08:54:05</RevisionDate>
+    </VersionInfo>
+    <OwningPublication>tcm:0-2-1</OwningPublication>
+  </Schema>
+  <Schema Id="tcm:2031-215-8">
+    <Title>Component List</Title>
+    <VersionInfo>
+      <Version>13</Version>
+      <Revision>0</Revision>
+      <CreationDate>2016-01-25T08:52:34</CreationDate>
+      <RevisionDate>2018-04-17T10:19:52</RevisionDate>
+    </VersionInfo>
+    <OwningPublication>tcm:0-2-1</OwningPublication>
+  </Schema>
+  <Schema Id="tcm:2031-207-8">
+    <Title>Banner</Title>
+    <VersionInfo>
+      <Version>12</Version>
+      <Revision>0</Revision>
+      <CreationDate>2016-01-25T08:52:33</CreationDate>
+      <RevisionDate>2017-09-19T23:33:22</RevisionDate>
+    </VersionInfo>
+    <OwningPublication>tcm:0-2-1</OwningPublication>
+  </Schema>
+  <Schema Id="tcm:2031-209-8">
+    <Title>Widget</Title>
+    <VersionInfo>
+      <Version>2</Version>
+      <Revision>0</Revision>
+      <CreationDate>2016-01-25T08:52:33</CreationDate>
+      <RevisionDate>2016-10-12T11:49:37</RevisionDate>
+    </VersionInfo>
+    <OwningPublication>tcm:0-2-1</OwningPublication>
+  </Schema>
+</Schemas>

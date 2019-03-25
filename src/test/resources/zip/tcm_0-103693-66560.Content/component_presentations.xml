@@ -1,0 +1,51 @@
+<ComponentPresentations>
+  <ComponentPresentation IsRendered="true">
+    <Component Id="tcm:2031-40944" />
+    <CodePage>65001</CodePage>
+    <Template Id="tcm:2031-15427-32" Priority="200" Format="HTML Fragment" Title="Hero Banner CT" IsDynamic="false" />
+    <RenderingMetadata>
+      <SmartTarget>
+        <Component path="\Building Blocks\Components\Blocks\Change Out Components\SALE Assets\Homepage\Banners" tcmuripath="\tcm:2031-1-2\tcm:2031-47-2\tcm:2031-379-2\tcm:2031-391-2\tcm:2031-15394-2\tcm:2031-15404-2\tcm:2031-15413-2">
+          <Keyword id="tcm:2031-265-1024" tcmuripath="\tcm:2031-25-512\tcm:2031-265-1024" titlepath="\Banner Link Block Alignment\Left" categoryId="tcm:2031-25-512" categoryTitle="Banner Link Block Alignment" categoryXmlName="LinkBlockAlignment" />
+          <Source>
+            <Content xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554">
+              <SubTitle>
+                <p class="banner__heading--description" style="font-weight: 600;width: 139%;margin-left: -18%;width: 150%;margin-left: -25%;" xmlns="http://www.w3.org/1999/xhtml">SALE
+<br />
+up to</p>
+<p class="banner__heading--offer" style="font-weight: 600;width:150%;margin-left:-25%;" xmlns="http://www.w3.org/1999/xhtml">50% off*</p>
+<p class="banner__heading--description" style="font-weight: 600;width: 139%;margin-left: -18%;width: 150%;margin-left: -25%;" xmlns="http://www.w3.org/1999/xhtml">+ Extra 10% off* when you shop with Recognition</p></SubTitle>
+              <Links xlink:type="simple" xlink:href="tcm:2031-40935" xlink:title="url_Homepage_SALE_Block01_Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+              <Links xlink:type="simple" xlink:href="tcm:2031-40936" xlink:title="url_Homepage_SALE_Block02_Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+              <Links xlink:type="simple" xlink:href="tcm:2031-40937" xlink:title="url_Homepage_SALE_Block03_Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+              <Links xlink:type="simple" xlink:href="tcm:2031-40938" xlink:title="url_Homepage_SALE_Block04_Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+              <Links xlink:type="simple" xlink:href="tcm:2031-40939" xlink:title="url_Homepage_SALE_Block05_Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+              <Links xlink:type="simple" xlink:href="tcm:2031-40940" xlink:title="url_Homepage_SALE_Block06_Banner" xmlns:xlink="http://www.w3.org/1999/xlink" />
+              <TypeOfLink>button</TypeOfLink>
+              <BannerType>EventBanner</BannerType>
+              <BannerImage xlink:type="simple" xlink:href="tcm:2031-41278" xlink:title="img_SALE_hp_Block01" xmlns:xlink="http://www.w3.org/1999/xlink" />
+              <CssStyling>banner--home </CssStyling>
+              <TextPosition>Left</TextPosition>
+              <TnCLink xlink:type="simple" xlink:href="tcm:2031-41888" xlink:title="*terms &amp; conditions apply" xmlns:xlink="http://www.w3.org/1999/xlink" />
+            </Content>
+          </Source>
+        </Component>
+        <Template id="tcm:2031-15427-32" title="Hero Banner CT" />
+        <Publication id="tcm:0-2031-1" title="700 EN_GB SHOP SITE" />
+      </SmartTarget>
+    </RenderingMetadata>
+    <RenderingInstructions />
+    <Binaries>
+      <Binary Id="tcm:2031-41278" />
+      <Binary Id="tcm:2031-41278" VariantId="w-375" />
+      <Binary Id="tcm:2031-41278" VariantId="w-480" />
+      <Binary Id="tcm:2031-41278" VariantId="w-572" />
+      <Binary Id="tcm:2031-41278" VariantId="w-768" />
+      <Binary Id="tcm:2031-41278" VariantId="w-944" />
+      <Binary Id="tcm:2031-41278" VariantId="w-960" />
+      <Binary Id="tcm:2031-41278" VariantId="w-1154" />
+      <Binary Id="tcm:2031-41278" VariantId="w-1536" />
+      <Binary Id="tcm:2031-41278" VariantId="w-2308" />
+    </Binaries>
+  </ComponentPresentation>
+</ComponentPresentations>

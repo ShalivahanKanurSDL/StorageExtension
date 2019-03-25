@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration Version="6.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="schemas/cd_storage_conf.xsd">
+    <Global>
+		<!-- AWS S3:
+				Example AWS / S3 config. Merge with existing config
+		-->
+        <Storages>
+
+           <StorageBindings>
+				<!-- AWS S3:
+						configure custom DAO Bundles
+				-->
+               <Bundle src="AWSDAOBundle.xml"/>
+            </StorageBindings>
+			<!-- AWSS3:
+					Example configuration in case JPA is used to publish pages. This is for example the case in DD4T setups.
+					The standard Class com.tridion.storage.JAPDAOFactory is overridden.
+					It is possible to mix and match JPA and FS AWSS3 DAO factories should there be need.
+			-->
+			<Storage 
+				Type="persistence" Id="defaultdb" dialect="MSSQL" 
+				Class="com.tridion.storage.JAPDAOFactory">
+				<Pool Type="jdbc" Size="5" MonitorInterval="60" IdleTimeout="120" CheckoutTimeout="120" />
+				<DataSource Class="com.microsoft.sqlserver.jdbc.SQLServerDataSource">
+					<Property Name="serverName" Value="[SERVERNAME]" />
+					<Property Name="portNumber" Value="[DBPORT]" />
+					<Property Name="databaseName" Value="[DBNAME]" />
+					<Property Name="user" Value="[DBBROKERUSERNAME]" />
+					<Property Name="password" Value="[DBBROKERPASSWORD]" />
+				</DataSource>
+			</Storage>
+			
+			<!-- AWSS3:
+					If the filesystem is used to publish pages to, override the standard FSDAOFactory
+					and configure the cores as desired
+			-->
+			<!--<Storage Type="filesystem"
+					Class="com.tridion.storage.aws.FSAWSDAOFactory"
+					Id="defaultFile" defaultFilesystem="false" defaultStorage="false">
+				<AWSS3BinaryIndexer Class="com.tridion.storage.aws.AWSS3BinaryIndexer" AwsAccessKeyId="" AwsSecretAccessKeyId="" BucketName="" />
+			</Storage>-->
+			<Storage Class="com.tridion.storage.aws.JPAAWSDAOFactory" Id="AWSS3" Type="persistence" dialect="MSSQL">
+				<Pool CheckoutTimeout="120" IdleTimeout="120" MonitorInterval="60" Size="5" Type="jdbc"/>
+				<DataSource Class="com.microsoft.sqlserver.jdbc.SQLServerDataSource">
+					<Property Name="serverName" Value="localhost"/>
+					<Property Name="portNumber" Value="1433"/>
+					<Property Name="databaseName" Value="Broker_Stg"/>
+					<Property Name="user" Value="Broker_Stg_User"/>
+					<Property Name="password" Value="Tr1dionUser"/>
+				</DataSource>
+				<AWSS3BinaryIndexer AwsAccessKeyId="" AwsSecretAccessKeyId="" BucketName="" Class="com.tridion.storage.aws.AWSS3BinaryIndexer"/>
+			</Storage>
+			<Storage Class="com.tridion.storage.aws.JPAAWSPageDAOFactory" Id="AWSS3" Type="persistence" dialect="MSSQL">
+				<Pool CheckoutTimeout="120" IdleTimeout="120" MonitorInterval="60" Size="5" Type="jdbc"/>
+				<DataSource Class="com.microsoft.sqlserver.jdbc.SQLServerDataSource">
+					<Property Name="serverName" Value="localhost"/>
+					<Property Name="portNumber" Value="1433"/>
+					<Property Name="databaseName" Value="Broker_Stg"/>
+					<Property Name="user" Value="Broker_Stg_User"/>
+					<Property Name="password" Value="Tr1dionUser"/>
+				</DataSource>
+				<AWSS3PageIndexer AwsAccessKeyId="" AwsSecretAccessKeyId="" BucketName="" Class="com.tridion.storage.aws.AWSS3PageIndexer"/>
+			</Storage>
+        </Storages>
+    </Global>
+	<ItemTypes cached="false" defaultStorageId="defaultdb">
+		<Item cached="false" storageId="AWSS3" typeMapping="Binary"/>
+		<Item cached="false" itemextension = ".xml" storageId="AWSS3" typeMapping="Page"/>
+		<Item cached="false" itemextension = ".xml" storageId="AWSS3" typeMapping="ComponentPresentaion"/>
+	</ItemTypes>
+    
+    <!-- Specifies the location of the license file. -->
+    <License Location=""/>
+</Configuration>

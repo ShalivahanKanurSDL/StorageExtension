@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StorageDAOBundles>
+    <StorageDAOBundle type="filesystem">
+		<StorageDAO typeMapping="Binary" class="com.tridion.storage.aws.dao.FSAWSBinaryContentDAO"/>
+		<!--<StorageDAO typeMapping="Xml" class="com.tridion.storage.aws.dao.FSAWSXmlContentDAO"/>-->
+    </StorageDAOBundle>
+	<StorageDAOBundle type="persistence">
+		<StorageDAO typeMapping="Binary" class="com.tridion.storage.aws.dao.JPAAWSBinaryContentDAO"/>
+		<StorageDAO typeMapping="Page" class="com.tridion.storage.aws.dao.JPAAWSPageDAO"/>
+	</StorageDAOBundle>
+</StorageDAOBundles>

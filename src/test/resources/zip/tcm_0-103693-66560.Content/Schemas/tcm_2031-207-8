@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?><tcm:Schema ID="tcm:2031-207-8" IsEditable="false" xmlns:tcm="http://www.tridion.com/ContentManager/5.0"><tcm:Context xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Publication xlink:type="simple" xlink:title="700 EN_GB SHOP SITE" xlink:href="tcm:0-2031-1" /><tcm:OrganizationalItem xlink:type="simple" xlink:title="Content Schemas" xlink:href="tcm:2031-22-2" /></tcm:Context><tcm:Info xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:LocationInfo><tcm:WebDAVURL>/webdav/700%20EN_GB%20SHOP%20SITE/Building%20Blocks/System/Schemas/Shared/Content%20Schemas/Banner.xsd</tcm:WebDAVURL><tcm:Path>\700 EN_GB SHOP SITE\Building Blocks\System\Schemas\Shared\Content Schemas</tcm:Path></tcm:LocationInfo><tcm:BluePrintInfo><tcm:OwningPublication xlink:type="simple" xlink:title="100 SCHEMA MASTER" xlink:href="tcm:0-2-1" /><tcm:IsShared>true</tcm:IsShared><tcm:IsLocalized>false</tcm:IsLocalized></tcm:BluePrintInfo><tcm:VersionInfo><tcm:Version>12</tcm:Version><tcm:Revision>0</tcm:Revision><tcm:CreationDate>2016-01-25T08:52:33</tcm:CreationDate><tcm:RevisionDate>2017-09-19T23:33:22</tcm:RevisionDate><tcm:Creator xlink:type="simple" xlink:title="peuncmsapp\arashdeep_singh" xlink:href="tcm:0-13-65552" description="Arashdeep Singh" /><tcm:Revisor xlink:type="simple" xlink:title="HOFSSC\ankit_mittal09" xlink:href="tcm:0-3211-65552" description="HOFSSC\ankit_mittal09" /><tcm:ItemLock Type="0" Title="No lock" /><tcm:IsNew>false</tcm:IsNew><tcm:SystemComment>Checked-in by HOFSSC\ankit_mittal09 ([missing value]).</tcm:SystemComment><tcm:UserComment /></tcm:VersionInfo><tcm:LockInfo><tcm:ItemLock Type="0" Title="No lock" /></tcm:LockInfo><tcm:PublishInfo><tcm:IsPublished>false</tcm:IsPublished></tcm:PublishInfo><tcm:AllowedActions><tcm:Actions Allow="1122312" Deny="51303" Managed="0" AllowedActions="tcm:View,tcm:Copy,tcm:HistoryList,tcm:WorkflowManaged" DeniedActions="tcm:Edit,tcm:Delete,tcm:Localize,tcm:Unlocalize,tcm:Cut,tcm:CheckOut,tcm:CheckIn,tcm:UndoCheckOut" /></tcm:AllowedActions></tcm:Info><tcm:Data xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Title>Banner</tcm:Title><tcm:Description>Banner</tcm:Description><tcm:Purpose>Component</tcm:Purpose><tcm:NamespaceURI>uuid:9d99ea29-1994-44c7-b29b-937f83409554</tcm:NamespaceURI><tcm:RootElementName>Content</tcm:RootElementName><tcm:IsTridionWebSchema>true</tcm:IsTridionWebSchema><tcm:XSD><xsd:schema elementFormDefault="qualified" targetNamespace="uuid:9d99ea29-1994-44c7-b29b-937f83409554" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" xmlns:tcmi="http://www.tridion.com/ContentManager/5.0/Instance" xmlns:category="tcm:0-2031-1/Categories.xsd"><xsd:import namespace="http://www.tridion.com/ContentManager/5.0/Instance" schemaLocation="cm_xml_inst.xsd" /><xsd:import namespace="tcm:0-2031-1/Categories.xsd" schemaLocation="tcm:0-2031-1/Categories.xsd" />
+        
+        <xsd:complexType name="BadgeContent">
+          <xsd:sequence>
+            <xsd:element name="BadgeText" minOccurs="0" maxOccurs="1" type="tcmi:MultiLineText">
+              <xsd:annotation>
+                <xsd:appinfo>
+                  <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">2</tcm:Size>
+                </xsd:appinfo>
+              </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="BgColor" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+              <xsd:annotation>
+                <xsd:appinfo>
+                  <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                </xsd:appinfo>
+              </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="DetailedBadge" minOccurs="0" maxOccurs="unbounded">
+              <xsd:annotation>
+                <xsd:appinfo>
+                  <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                  <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">checkbox</tcm:listtype>
+                </xsd:appinfo>
+              </xsd:annotation>
+              <xsd:simpleType>
+                <xsd:restriction base="xsd:normalizedString">
+                  <xsd:enumeration value="yes" />
+                </xsd:restriction>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="CssStyling" minOccurs="0" maxOccurs="unbounded" type="category:Heading">
+              <xsd:annotation>
+                <xsd:appinfo>
+                  <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                  <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">tree</tcm:listtype>
+                </xsd:appinfo>
+              </xsd:annotation>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+        
+        <xsd:annotation>
+          <xsd:appinfo>
+            <tcm:Labels xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+              <tcm:Label ElementName="Title" Metadata="false">Title</tcm:Label>
+              <tcm:Label ElementName="TitleHeadingTag" Metadata="false">Title Heading &amp; Color Styles</tcm:Label>
+              <tcm:Label ElementName="SubTitle" Metadata="false">Sub Title</tcm:Label>
+              <tcm:Label ElementName="SubTitleHeadingTag" Metadata="false">Subtitle Heading &amp; Color Styles</tcm:Label>
+              <tcm:Label ElementName="Offer" Metadata="false">Offer Heading</tcm:Label>
+              <tcm:Label ElementName="OfferHeadingTag" Metadata="false">Offer Heading &amp; Color Styles</tcm:Label>
+              <tcm:Label ElementName="OfferDescription" Metadata="false">Offer Description</tcm:Label>
+              <tcm:Label ElementName="OfferDescriptionTag" Metadata="false">Offer Description Font &amp; Color Styles</tcm:Label>
+              <tcm:Label ElementName="Badges" Metadata="false">Embedded Badges</tcm:Label>
+              <tcm:Label ElementName="Links" Metadata="false">List of Links</tcm:Label>
+              <tcm:Label ElementName="TypeOfLink" Metadata="false">Link Type</tcm:Label>
+              <tcm:Label ElementName="BannerType" Metadata="false">Banner Type</tcm:Label>
+              <tcm:Label ElementName="BackgroundColor" Metadata="false">Background color Hex Value for instance - #A72323</tcm:Label>
+              <tcm:Label ElementName="BannerImage" Metadata="false">Image</tcm:Label>
+              <tcm:Label ElementName="MapImage" Metadata="false">Map Image</tcm:Label>
+              <tcm:Label ElementName="LiveDate" Metadata="false">Banner go live date</tcm:Label>
+              <tcm:Label ElementName="ExpireDate" Metadata="false">Banner expire date</tcm:Label>
+              <tcm:Label ElementName="ImagePosition" Metadata="false">Position of image with respect to text</tcm:Label>
+              <tcm:Label ElementName="CssStyling" Metadata="false">Css Styling</tcm:Label>
+              <tcm:Label ElementName="TextPosition" Metadata="false">Position of Text on Banner Area</tcm:Label>
+              <tcm:Label ElementName="TnCLink" Metadata="false">Terms and Conditions Link</tcm:Label>
+              <tcm:Label ElementName="TnCColourTag" Metadata="false">Terms and Condition Colour Styles</tcm:Label>
+              <tcm:Label ElementName="Type" Metadata="true">Type</tcm:Label>
+            <tcm:Label ElementName="BadgeText" Context="tcm:2031-40638-8">Text on the Badge</tcm:Label><tcm:Label ElementName="BgColor" Context="tcm:2031-40638-8">Background Color R,G,B,A Value for instance - 58, 65, 75, 0.9</tcm:Label><tcm:Label ElementName="DetailedBadge" Context="tcm:2031-40638-8">Is this Detailed Discount Messaging Badge ?</tcm:Label><tcm:Label ElementName="CssStyling" Context="tcm:2031-40638-8">Additional Styling Attributes</tcm:Label></tcm:Labels>
+          </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:element name="Content">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Title" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="TitleHeadingTag" minOccurs="0" maxOccurs="unbounded" type="category:Heading">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">tree</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="SubTitle" minOccurs="0" maxOccurs="1" type="tcmi:XHTML">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">2</tcm:Size>
+                    <tcm:FilterXSLT xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="">
+                        <xsl:output omit-xml-declaration="yes" method="xml" cdata-section-elements="script" />
+                        <xsl:template name="FormattingFeatures">
+                          <FormattingFeatures xmlns="http://www.tridion.com/ContentManager/5.2/FormatArea">
+                            <Doctype>Transitional</Doctype>
+                            <AccessibilityLevel>0</AccessibilityLevel>
+                            <DisallowedActions />
+                            <DisallowedStyles />
+                          </FormattingFeatures>
+                        </xsl:template>
+                        <xsl:template match="/ | node() | @*">
+                          <xsl:copy>
+                            <xsl:apply-templates select="node() | @*" />
+                          </xsl:copy>
+                        </xsl:template>
+                        <xsl:template match="*[      (self::br or self::p or self::div)     and      normalize-space(translate(., ' ', '')) = ''     and      not(@*)     and      not(processing-instruction())     and      not(comment())     and      not(*[not(self::br) or @* or * or node()])     and      not(following::node()[not(         (self::text() or self::br or self::p or self::div)        and         normalize-space(translate(., ' ', '')) = ''        and         not(@*)        and         not(processing-instruction())        and         not(comment())        and         not(*[not(self::br) or @* or * or node()])       )])     ]">
+                          <!-- ignore all paragraphs and line-breaks at the end that have nothing but (non-breaking) spaces and line breaks -->
+                        </xsl:template>
+                        <xsl:template match="br[parent::div and not(preceding-sibling::node()) and not(following-sibling::node())]">
+                          <!-- Chrome generates <div><br/></div>. Renders differently in different browsers. Replace it with a non-breaking space -->
+                          <xsl:text> </xsl:text>
+                        </xsl:template>
+                      </xsl:stylesheet>
+                    </tcm:FilterXSLT>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="SubTitleHeadingTag" minOccurs="0" maxOccurs="unbounded" type="category:Heading">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">tree</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="Offer" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="OfferHeadingTag" minOccurs="0" maxOccurs="unbounded" type="category:Heading">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">tree</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="OfferDescription" minOccurs="0" maxOccurs="1" type="tcmi:XHTML">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">2</tcm:Size>
+                    <tcm:FilterXSLT xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="">
+                        <xsl:output omit-xml-declaration="yes" method="xml" cdata-section-elements="script" />
+                        <xsl:template name="FormattingFeatures">
+                          <FormattingFeatures xmlns="http://www.tridion.com/ContentManager/5.2/FormatArea">
+                            <Doctype>Transitional</Doctype>
+                            <AccessibilityLevel>0</AccessibilityLevel>
+                            <DisallowedActions />
+                            <DisallowedStyles />
+                          </FormattingFeatures>
+                        </xsl:template>
+                        <xsl:template match="/ | node() | @*">
+                          <xsl:copy>
+                            <xsl:apply-templates select="node() | @*" />
+                          </xsl:copy>
+                        </xsl:template>
+                        <xsl:template match="*[      (self::br or self::p or self::div)     and      normalize-space(translate(., ' ', '')) = ''     and      not(@*)     and      not(processing-instruction())     and      not(comment())     and      not(*[not(self::br) or @* or * or node()])     and      not(following::node()[not(         (self::text() or self::br or self::p or self::div)        and         normalize-space(translate(., ' ', '')) = ''        and         not(@*)        and         not(processing-instruction())        and         not(comment())        and         not(*[not(self::br) or @* or * or node()])       )])     ]">
+                          <!-- ignore all paragraphs and line-breaks at the end that have nothing but (non-breaking) spaces and line breaks -->
+                        </xsl:template>
+                        <xsl:template match="br[parent::div and not(preceding-sibling::node()) and not(following-sibling::node())]">
+                          <!-- Chrome generates <div><br/></div>. Renders differently in different browsers. Replace it with a non-breaking space -->
+                          <xsl:text> </xsl:text>
+                        </xsl:template>
+                      </xsl:stylesheet>
+                    </tcm:FilterXSLT>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="OfferDescriptionTag" minOccurs="0" maxOccurs="unbounded" type="category:Heading">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">tree</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="Badges" minOccurs="0" maxOccurs="3" type="BadgeContent">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:EmbeddedSchema xlink:href="tcm:2031-40638-8" xlink:title="Embedded Badge Details" xmlns:tcm="http://www.tridion.com/ContentManager/5.0" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="Links" minOccurs="0" maxOccurs="6" type="tcmi:SimpleLink">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:linktype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">ComponentLink</tcm:linktype>
+                    <tcm:AllowMultimediaLinks xmlns:tcm="http://www.tridion.com/ContentManager/5.0">false</tcm:AllowMultimediaLinks>
+                    <tcm:AllowedTargetSchemas xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <tcm:TargetSchema xlink:href="tcm:2031-204-8" xlink:title="URL Link" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                      <tcm:TargetSchema xlink:href="tcm:2031-206-8" xlink:title="Internal Link" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    </tcm:AllowedTargetSchemas>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="TypeOfLink" minOccurs="0" maxOccurs="1">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:normalizedString">
+                    <xsd:enumeration value="button" />
+                    <xsd:enumeration value="anchor" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="BannerType" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">checkbox</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:normalizedString">
+                    <xsd:enumeration value="EventBanner" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="BackgroundColor" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="BannerImage" minOccurs="0" maxOccurs="1" type="tcmi:SimpleLink">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:linktype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">MultimediaLink</tcm:linktype>
+                    <tcm:AllowedTargetSchemas xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <tcm:TargetSchema xlink:href="tcm:2031-203-8" xlink:title="Image" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    </tcm:AllowedTargetSchemas>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="MapImage" minOccurs="0" maxOccurs="1" type="tcmi:SimpleLink">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:linktype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">MultimediaLink</tcm:linktype>
+                    <tcm:AllowedTargetSchemas xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <tcm:TargetSchema xlink:href="tcm:2031-8989-8" xlink:title="Map Image" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    </tcm:AllowedTargetSchemas>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="LiveDate" minOccurs="0" maxOccurs="1" type="xsd:dateTime">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="ExpireDate" minOccurs="0" maxOccurs="1" type="xsd:dateTime">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="ImagePosition" minOccurs="0" maxOccurs="1" type="category:BannerImagePosition">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>true</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="CssStyling" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="TextPosition" minOccurs="0" maxOccurs="1" type="category:LinkBlockAlignment">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:DefaultSimpleLinkValue xlink:href="tcm:2031-265-1024" xlink:title="Left" xmlns:tcm="http://www.tridion.com/ContentManager/5.0" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="TnCLink" minOccurs="0" maxOccurs="2" type="tcmi:SimpleLink">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:linktype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">ComponentLink</tcm:linktype>
+                    <tcm:AllowMultimediaLinks xmlns:tcm="http://www.tridion.com/ContentManager/5.0">false</tcm:AllowMultimediaLinks>
+                    <tcm:AllowedTargetSchemas xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+                      <tcm:TargetSchema xlink:href="tcm:2031-204-8" xlink:title="URL Link" xmlns:xlink="http://www.w3.org/1999/xlink" />
+                    </tcm:AllowedTargetSchemas>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="TnCColourTag" minOccurs="0" maxOccurs="1" type="category:Heading">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0" />
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Metadata">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Type" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <tcm:ExtensionXml xmlns:tcm="http://www.tridion.com/ContentManager/5.0" />
+                  </xsd:appinfo>
+                </xsd:annotation>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:schema></tcm:XSD><tcm:AllowedMultimediaTypes /><tcm:ComponentProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:BundleProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:DeleteBundleOnProcessFinished>false</tcm:DeleteBundleOnProcessFinished></tcm:Data></tcm:Schema>

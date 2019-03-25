@@ -1,0 +1,404 @@
+<Components>
+  <Component Id="tcm:2031-19279" isMultimedia="false">
+    <Mandatory>
+      <Title>Title Home Page</Title>
+      <VersionInfo>
+        <Version>9</Version>
+        <Revision>0</Revision>
+        <CreationDate>2016-10-18T12:27:35</CreationDate>
+        <RevisionDate>2018-02-14T15:10:37</RevisionDate>
+        <Author>HOFSSC\SORLOWSK</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-254-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:67f63cbc-20c5-4165-82e8-fed62b87e543" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-42520" isMultimedia="false">
+    <Mandatory>
+      <Title>hp_topbrands</Title>
+      <VersionInfo>
+        <Version>16</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-07-20T08:26:03</CreationDate>
+        <RevisionDate>2018-06-07T14:36:49</RevisionDate>
+        <Author>HOFSSC\THUSEYIN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-215-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:4f5745a2-f165-4a05-8524-8f6994caa9a0" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-40945" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Block02</Title>
+      <VersionInfo>
+        <Version>20</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:01:09</CreationDate>
+        <RevisionDate>2018-06-07T14:39:50</RevisionDate>
+        <Author>HOFSSC\THUSEYIN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-42152" isMultimedia="false">
+    <Mandatory>
+      <Title>recognition_homepage_banner_july17</Title>
+      <VersionInfo>
+        <Version>10</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-07-10T13:33:16</CreationDate>
+        <RevisionDate>2018-06-13T15:38:44</RevisionDate>
+        <Author>HOFSSC\ajaigirdar</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-40947" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Block04</Title>
+      <VersionInfo>
+        <Version>22</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:01:21</CreationDate>
+        <RevisionDate>2018-06-07T15:14:08</RevisionDate>
+        <Author>HOFSSC\THUSEYIN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-40946" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Block03</Title>
+      <VersionInfo>
+        <Version>24</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:01:15</CreationDate>
+        <RevisionDate>2018-06-13T14:50:05</RevisionDate>
+        <Author>HOFSSC\ajaigirdar</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-40948" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Block05</Title>
+      <VersionInfo>
+        <Version>26</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:01:26</CreationDate>
+        <RevisionDate>2018-06-07T14:43:22</RevisionDate>
+        <Author>HOFSSC\THUSEYIN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-40949" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Block06</Title>
+      <VersionInfo>
+        <Version>23</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:01:31</CreationDate>
+        <RevisionDate>2018-06-07T14:49:55</RevisionDate>
+        <Author>HOFSSC\THUSEYIN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-40950" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Block07</Title>
+      <VersionInfo>
+        <Version>22</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:01:38</CreationDate>
+        <RevisionDate>2018-06-07T14:51:09</RevisionDate>
+        <Author>HOFSSC\THUSEYIN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33969-1024" TaxonomyId="tcm:2031-9247-512" Name="Charcoal" Path="\Heading &amp; Colour Variants\Charcoal">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\Charcoal</Path>
+            </Paths>
+          </Keyword>
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-41548" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_block11</Title>
+      <VersionInfo>
+        <Version>11</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-16T15:08:57</CreationDate>
+        <RevisionDate>2018-06-07T15:16:25</RevisionDate>
+        <Author>HOFSSC\THUSEYIN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-50923" isMultimedia="false">
+    <Mandatory>
+      <Title>HIDDEN banner_Homepage_SALE_block10</Title>
+      <VersionInfo>
+        <Version>7</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-12-18T09:39:21</CreationDate>
+        <RevisionDate>2018-06-13T13:21:33</RevisionDate>
+        <Author>HOFSSC\ajaigirdar</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-2031-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-40952" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Block09</Title>
+      <VersionInfo>
+        <Version>19</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:01:49</CreationDate>
+        <RevisionDate>2018-02-16T10:12:16</RevisionDate>
+        <Author>HOFSSC\AEREN</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+        <Category Name="Heading &amp; Colour Variants" Id="tcm:2031-9247-512">
+          <Keyword Id="tcm:2031-33973-1024" TaxonomyId="tcm:2031-9247-512" Name="White" Path="\Heading &amp; Colour Variants\White">
+            <Paths>
+              <Path>\Heading &amp; Colour Variants\White</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+  <Component Id="tcm:2031-20063" isMultimedia="false">
+    <Mandatory>
+      <Title>Popular Products - Home Page</Title>
+      <VersionInfo>
+        <Version>1</Version>
+        <Revision>0</Revision>
+        <CreationDate>2016-10-18T12:47:31</CreationDate>
+        <RevisionDate>2016-10-18T12:47:31</RevisionDate>
+        <Author>HOFSSCTEST\Himani01</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-209-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+    </Mandatory>
+  </Component>
+  <Component Id="tcm:2031-40944" isMultimedia="false">
+    <Mandatory>
+      <Title>banner_Homepage_SALE_Hero_Block01</Title>
+      <VersionInfo>
+        <Version>26</Version>
+        <Revision>0</Revision>
+        <CreationDate>2017-06-08T12:00:57</CreationDate>
+        <RevisionDate>2018-06-13T15:57:13</RevisionDate>
+        <Author>HOFSSC\ajaigirdar</Author>
+      </VersionInfo>
+      <Schema Id="tcm:2031-207-8" />
+      <OwningPublication Id="tcm:0-7-1" />
+      <Keywords>
+        <Category Name="Banner Link Block Alignment" Id="tcm:2031-25-512">
+          <Keyword Id="tcm:2031-265-1024" TaxonomyId="tcm:2031-25-512" Name="Left" Path="\Banner Link Block Alignment\Left">
+            <Paths>
+              <Path>\Banner Link Block Alignment\Left</Path>
+            </Paths>
+          </Keyword>
+        </Category>
+      </Keywords>
+    </Mandatory>
+    <Custom>
+      <Metadata xmlns="uuid:9d99ea29-1994-44c7-b29b-937f83409554" />
+    </Custom>
+  </Component>
+</Components>

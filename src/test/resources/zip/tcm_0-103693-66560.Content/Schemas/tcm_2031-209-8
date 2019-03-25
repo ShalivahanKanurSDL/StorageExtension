@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><tcm:Schema ID="tcm:2031-209-8" IsEditable="false" xmlns:tcm="http://www.tridion.com/ContentManager/5.0"><tcm:Context xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Publication xlink:type="simple" xlink:title="700 EN_GB SHOP SITE" xlink:href="tcm:0-2031-1" /><tcm:OrganizationalItem xlink:type="simple" xlink:title="Content Schemas" xlink:href="tcm:2031-22-2" /></tcm:Context><tcm:Info xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:LocationInfo><tcm:WebDAVURL>/webdav/700%20EN_GB%20SHOP%20SITE/Building%20Blocks/System/Schemas/Shared/Content%20Schemas/Widget.xsd</tcm:WebDAVURL><tcm:Path>\700 EN_GB SHOP SITE\Building Blocks\System\Schemas\Shared\Content Schemas</tcm:Path></tcm:LocationInfo><tcm:BluePrintInfo><tcm:OwningPublication xlink:type="simple" xlink:title="100 SCHEMA MASTER" xlink:href="tcm:0-2-1" /><tcm:IsShared>true</tcm:IsShared><tcm:IsLocalized>false</tcm:IsLocalized></tcm:BluePrintInfo><tcm:VersionInfo><tcm:Version>2</tcm:Version><tcm:Revision>0</tcm:Revision><tcm:CreationDate>2016-01-25T08:52:33</tcm:CreationDate><tcm:RevisionDate>2016-10-12T11:49:37</tcm:RevisionDate><tcm:Creator xlink:type="simple" xlink:title="peuncmsapp\arashdeep_singh" xlink:href="tcm:0-13-65552" description="Arashdeep Singh" /><tcm:Revisor xlink:type="simple" xlink:title="HOFSSCTEST\Bhavesh_Malik" xlink:href="tcm:0-82-65552" description="Bhavesh Malik" /><tcm:ItemLock Type="0" Title="No lock" /><tcm:IsNew>false</tcm:IsNew><tcm:SystemComment>Checked-in by HOFSSCTEST\Bhavesh_Malik ([missing value]).</tcm:SystemComment><tcm:UserComment /></tcm:VersionInfo><tcm:LockInfo><tcm:ItemLock Type="0" Title="No lock" /></tcm:LockInfo><tcm:PublishInfo><tcm:IsPublished>false</tcm:IsPublished></tcm:PublishInfo><tcm:AllowedActions><tcm:Actions Allow="1122312" Deny="51303" Managed="0" AllowedActions="tcm:View,tcm:Copy,tcm:HistoryList,tcm:WorkflowManaged" DeniedActions="tcm:Edit,tcm:Delete,tcm:Localize,tcm:Unlocalize,tcm:Cut,tcm:CheckOut,tcm:CheckIn,tcm:UndoCheckOut" /></tcm:AllowedActions></tcm:Info><tcm:Data xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><tcm:Title>Widget</tcm:Title><tcm:Description>Widget</tcm:Description><tcm:Purpose>Component</tcm:Purpose><tcm:NamespaceURI>uuid:f660cc0f-cb3a-4bff-b162-7f1d4016c33c</tcm:NamespaceURI><tcm:RootElementName>Content</tcm:RootElementName><tcm:IsTridionWebSchema>true</tcm:IsTridionWebSchema><tcm:XSD><xsd:schema elementFormDefault="qualified" targetNamespace="uuid:f660cc0f-cb3a-4bff-b162-7f1d4016c33c" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="uuid:f660cc0f-cb3a-4bff-b162-7f1d4016c33c" xmlns:tcmi="http://www.tridion.com/ContentManager/5.0/Instance">
+        <xsd:import namespace="http://www.tridion.com/ContentManager/5.0/Instance" schemaLocation="cm_xml_inst.xsd" />
+        <xsd:annotation>
+          <xsd:appinfo>
+            <tcm:Labels xmlns:tcm="http://www.tridion.com/ContentManager/5.0">
+              <tcm:Label ElementName="PageType" Metadata="false">Page Type</tcm:Label>
+              <tcm:Label ElementName="WidgetType" Metadata="false">Type of Widget</tcm:Label>
+            </tcm:Labels>
+          </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:element name="Content">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="PageType" minOccurs="1" maxOccurs="1">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:normalizedString">
+                    <xsd:enumeration value="home" />
+                    <xsd:enumeration value="404error" />
+                    <xsd:enumeration value="blp" />
+                    <xsd:enumeration value="detail" />
+                    <xsd:enumeration value="quiz" />
+                    <xsd:enumeration value="store" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="WidgetType" minOccurs="1" maxOccurs="1">
+                <xsd:annotation>
+                  <xsd:appinfo>
+                    <ExtensionXml xmlns="http://www.tridion.com/ContentManager/5.0">
+                      <configuration xmlns="http://www.sdltridion.com/2011/SiteEdit">
+                        <field>
+                          <editable>false</editable>
+                        </field>
+                      </configuration>
+                    </ExtensionXml>
+                    <tcm:Size xmlns:tcm="http://www.tridion.com/ContentManager/5.0">1</tcm:Size>
+                    <tcm:listtype xmlns:tcm="http://www.tridion.com/ContentManager/5.0">select</tcm:listtype>
+                  </xsd:appinfo>
+                </xsd:annotation>
+                <xsd:simpleType>
+                  <xsd:restriction base="xsd:normalizedString">
+                    <xsd:enumeration value="you may also like widget" />
+                    <xsd:enumeration value="recently viewed product widget" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:schema></tcm:XSD><tcm:AllowedMultimediaTypes /><tcm:ComponentProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:BundleProcess xlink:type="simple" xlink:title="" xlink:href="tcm:0-0-0" /><tcm:DeleteBundleOnProcessFinished>false</tcm:DeleteBundleOnProcessFinished></tcm:Data></tcm:Schema>
